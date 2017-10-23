@@ -2,7 +2,7 @@
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 
 
 # NPM 
-### Node一定要有node环境才可以使用
+### Node       一定要有node环境才可以使用
 ###  Package   需要拥有的文件
 ###  Manage    需要管理的模块
 ### 初始化 package.json npm init(需要添加对应的信息 ctrk+c 可以取消) npm
