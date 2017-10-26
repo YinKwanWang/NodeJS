@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website反馈</title>
+	<link rel="stylesheet" href="../assets/style.css">
+	
+</head>
+<body>
+	<% include ../public/nav.ejs %>
+	<!-- 这个id是属性名的id -->
+	<h1>这是第<%= id %>篇博客</h1>
+	<!-- <p>
+		<strong>标题:</strong><%= data[0].title %>
+		<br>
+		<strong>内容:</strong><%= data[0].body %>
+		<br>
+		<strong>作者:</strong><%= data[0].author %>
+   </p> -->
+   <ul>
+   	<!-- ejs语法 循环遍历 -->
+   	  <% data.forEach(function(data){ %>
+             <li>
+             	<strong>标题:</strong><%= data.title %>
+				<br>
+				<strong>内容:</strong><%= data.body %>
+				<br>
+				<strong>作者:</strong><%= data.author %>
+             </li>
+   	  <% }) %>
+   </ul>
+</body>
+</html>
