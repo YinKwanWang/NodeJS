@@ -6,6 +6,8 @@
 
 ### node6 讲述npm终端命令 es6=es2015函数用法()=>{} 通过路由参数有多少个页面请求多少次app.get('/contact',(req,res) => {res.send("This is Contact Page!");});
 
+### 测试时用node app.js 或者nodemon app 命令
+
 ### 1.确认自己node环境版本 node -v  ctrl + c 是取消当前操作
 ### 2.安装cnpm镜像网址http://riny.net/2014/cnpm/  cnpm --version确认自己npm镜像是否安装成功
 ### N : Node一定要有node环境才可以使用      需要依赖的环境
